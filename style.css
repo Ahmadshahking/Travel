@@ -1,0 +1,92 @@
+
+
+body{
+    
+    width: 1200px;
+    height: 1200px;
+    background-size: cover;
+    background-position: center;    
+}
+
+nav{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Travelar{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px grey;
+    
+
+     &:hover{
+        font-size: 40px;
+        color: lightgray;
+        
+
+     }
+}
+
+.travel-icon{
+  width: 25px;
+
+}
+
+.Features{
+    margin-top: 13px;
+}
+.how{
+    margin-top: 13px;
+}
+.Prices{
+    margin-top: 13px;
+}
+.Contact{
+    margin-top: 13px;
+}
+.heading-1{
+    font-size: 50px;
+    font-family: Italic;
+    color: black;
+    text-align: center;
+    margin-top: 200px;
+    word-spacing: 20px;
+}
+.find{
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 10px  gray;
+    border-radius: 40px;
+    margin-right: 340px;
+    float: right;
+    text-align: center;
+    margin-top: 40px;
+    border: 1px solid lightgray;
+    width: 500px;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 15px;
+    height: auto;
+}
+
+.search{
+    width: 20px;
+}
+.Description{
+    margin-left: -80px;
+    color: darkgray;
+}
+.group{
+    color: darkgray;
+    margin-right: -80px;
+}
